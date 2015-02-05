@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC6DDC901A8336010050BF6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6DDC8F1A8336010050BF6E /* main.m */; };
+		DC6DDC931A8336010050BF6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6DDC921A8336010050BF6E /* AppDelegate.m */; };
+		DC6DDC9B1A8336010050BF6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDC9A1A8336010050BF6E /* Images.xcassets */; };
+		DC6DDCAA1A8336010050BF6E /* syJiugonggeTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6DDCA91A8336010050BF6E /* syJiugonggeTableViewTests.m */; };
+		DC6DDCB91A8336790050BF6E /* SYJiugonggeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6DDCB61A8336790050BF6E /* SYJiugonggeCell.m */; };
+		DC6DDCBA1A8336790050BF6E /* SYJiugonggeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6DDCB81A8336790050BF6E /* SYJiugonggeTableView.m */; };
+		DC6DDCBE1A8336ED0050BF6E /* JJGTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6DDCBD1A8336ED0050BF6E /* JJGTestViewController.m */; };
+		DC6DDCC11A83378B0050BF6E /* JJGTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6DDCC01A83378B0050BF6E /* JJGTestView.m */; };
+		DC6DDCC81A8350310050BF6E /* JJGEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6DDCC71A8350310050BF6E /* JJGEntity.m */; };
+		DC6DDCDF1A8353430050BF6E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCCA1A8353430050BF6E /* 1.jpg */; };
+		DC6DDCE01A8353430050BF6E /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCCB1A8353430050BF6E /* 10.jpg */; };
+		DC6DDCE11A8353430050BF6E /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCCC1A8353430050BF6E /* 11.jpg */; };
+		DC6DDCE21A8353430050BF6E /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCCD1A8353430050BF6E /* 12.jpg */; };
+		DC6DDCE31A8353430050BF6E /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCCE1A8353430050BF6E /* 13.jpg */; };
+		DC6DDCE41A8353430050BF6E /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCCF1A8353430050BF6E /* 14.jpg */; };
+		DC6DDCE51A8353430050BF6E /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCD01A8353430050BF6E /* 15.jpg */; };
+		DC6DDCE61A8353430050BF6E /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCD11A8353430050BF6E /* 16.jpg */; };
+		DC6DDCE71A8353430050BF6E /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCD21A8353430050BF6E /* 17.jpg */; };
+		DC6DDCE81A8353430050BF6E /* 18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCD31A8353430050BF6E /* 18.jpg */; };
+		DC6DDCE91A8353430050BF6E /* 19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCD41A8353430050BF6E /* 19.jpg */; };
+		DC6DDCEA1A8353430050BF6E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCD51A8353430050BF6E /* 2.jpg */; };
+		DC6DDCEB1A8353430050BF6E /* 20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCD61A8353430050BF6E /* 20.jpg */; };
+		DC6DDCEC1A8353430050BF6E /* 21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCD71A8353430050BF6E /* 21.jpg */; };
+		DC6DDCED1A8353430050BF6E /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCD81A8353430050BF6E /* 3.jpg */; };
+		DC6DDCEE1A8353430050BF6E /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCD91A8353430050BF6E /* 4.jpg */; };
+		DC6DDCEF1A8353430050BF6E /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCDA1A8353430050BF6E /* 5.jpg */; };
+		DC6DDCF01A8353430050BF6E /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCDB1A8353430050BF6E /* 6.jpg */; };
+		DC6DDCF11A8353430050BF6E /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCDC1A8353430050BF6E /* 7.jpg */; };
+		DC6DDCF21A8353430050BF6E /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCDD1A8353430050BF6E /* 8.jpg */; };
+		DC6DDCF31A8353430050BF6E /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6DDCDE1A8353430050BF6E /* 9.jpg */; };
+		DC6DDCF61A8354610050BF6E /* SYJiugonggeEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6DDCF51A8354610050BF6E /* SYJiugonggeEntity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC6DDCA41A8336010050BF6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC6DDC821A8336010050BF6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC6DDC891A8336010050BF6E;
+			remoteInfo = syJiugonggeTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC6DDC8A1A8336010050BF6E /* syJiugonggeTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = syJiugonggeTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6DDC8E1A8336010050BF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6DDC8F1A8336010050BF6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC6DDC911A8336010050BF6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC6DDC921A8336010050BF6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC6DDC9A1A8336010050BF6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC6DDCA31A8336010050BF6E /* syJiugonggeTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = syJiugonggeTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6DDCA81A8336010050BF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6DDCA91A8336010050BF6E /* syJiugonggeTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = syJiugonggeTableViewTests.m; sourceTree = "<group>"; };
+		DC6DDCB51A8336790050BF6E /* SYJiugonggeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYJiugonggeCell.h; sourceTree = "<group>"; };
+		DC6DDCB61A8336790050BF6E /* SYJiugonggeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYJiugonggeCell.m; sourceTree = "<group>"; };
+		DC6DDCB71A8336790050BF6E /* SYJiugonggeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYJiugonggeTableView.h; sourceTree = "<group>"; };
+		DC6DDCB81A8336790050BF6E /* SYJiugonggeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYJiugonggeTableView.m; sourceTree = "<group>"; };
+		DC6DDCBC1A8336ED0050BF6E /* JJGTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJGTestViewController.h; sourceTree = "<group>"; };
+		DC6DDCBD1A8336ED0050BF6E /* JJGTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJGTestViewController.m; sourceTree = "<group>"; };
+		DC6DDCBF1A83378B0050BF6E /* JJGTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJGTestView.h; sourceTree = "<group>"; };
+		DC6DDCC01A83378B0050BF6E /* JJGTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJGTestView.m; sourceTree = "<group>"; };
+		DC6DDCC61A8350310050BF6E /* JJGEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJGEntity.h; sourceTree = "<group>"; };
+		DC6DDCC71A8350310050BF6E /* JJGEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJGEntity.m; sourceTree = "<group>"; };
+		DC6DDCCA1A8353430050BF6E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		DC6DDCCB1A8353430050BF6E /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		DC6DDCCC1A8353430050BF6E /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		DC6DDCCD1A8353430050BF6E /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		DC6DDCCE1A8353430050BF6E /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		DC6DDCCF1A8353430050BF6E /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		DC6DDCD01A8353430050BF6E /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		DC6DDCD11A8353430050BF6E /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
+		DC6DDCD21A8353430050BF6E /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = "<group>"; };
+		DC6DDCD31A8353430050BF6E /* 18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.jpg; sourceTree = "<group>"; };
+		DC6DDCD41A8353430050BF6E /* 19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.jpg; sourceTree = "<group>"; };
+		DC6DDCD51A8353430050BF6E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		DC6DDCD61A8353430050BF6E /* 20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20.jpg; sourceTree = "<group>"; };
+		DC6DDCD71A8353430050BF6E /* 21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21.jpg; sourceTree = "<group>"; };
+		DC6DDCD81A8353430050BF6E /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		DC6DDCD91A8353430050BF6E /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		DC6DDCDA1A8353430050BF6E /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		DC6DDCDB1A8353430050BF6E /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		DC6DDCDC1A8353430050BF6E /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		DC6DDCDD1A8353430050BF6E /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		DC6DDCDE1A8353430050BF6E /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		DC6DDCF41A8354610050BF6E /* SYJiugonggeEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYJiugonggeEntity.h; sourceTree = "<group>"; };
+		DC6DDCF51A8354610050BF6E /* SYJiugonggeEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYJiugonggeEntity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC6DDC871A8336010050BF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6DDCA01A8336010050BF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC6DDC811A8336010050BF6E = {
+			isa = PBXGroup;
+			children = (
+				DC6DDC8C1A8336010050BF6E /* syJiugonggeTableView */,
+				DC6DDCA61A8336010050BF6E /* syJiugonggeTableViewTests */,
+				DC6DDC8B1A8336010050BF6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC6DDC8B1A8336010050BF6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC6DDC8A1A8336010050BF6E /* syJiugonggeTableView.app */,
+				DC6DDCA31A8336010050BF6E /* syJiugonggeTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC6DDC8C1A8336010050BF6E /* syJiugonggeTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DC6DDCC91A8353430050BF6E /* tmpImage */,
+				DC6DDCB41A83364F0050BF6E /* AppDelegate */,
+				DC6DDCB31A83362B0050BF6E /* Resource */,
+				DC6DDCBB1A8336C40050BF6E /* Demo */,
+				DC6DDC9A1A8336010050BF6E /* Images.xcassets */,
+				DC6DDC8D1A8336010050BF6E /* Supporting Files */,
+			);
+			path = syJiugonggeTableView;
+			sourceTree = "<group>";
+		};
+		DC6DDC8D1A8336010050BF6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC6DDC8E1A8336010050BF6E /* Info.plist */,
+				DC6DDC8F1A8336010050BF6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC6DDCA61A8336010050BF6E /* syJiugonggeTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC6DDCA91A8336010050BF6E /* syJiugonggeTableViewTests.m */,
+				DC6DDCA71A8336010050BF6E /* Supporting Files */,
+			);
+			path = syJiugonggeTableViewTests;
+			sourceTree = "<group>";
+		};
+		DC6DDCA71A8336010050BF6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC6DDCA81A8336010050BF6E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC6DDCB31A83362B0050BF6E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DC6DDCB51A8336790050BF6E /* SYJiugonggeCell.h */,
+				DC6DDCB61A8336790050BF6E /* SYJiugonggeCell.m */,
+				DC6DDCB71A8336790050BF6E /* SYJiugonggeTableView.h */,
+				DC6DDCB81A8336790050BF6E /* SYJiugonggeTableView.m */,
+				DC6DDCF41A8354610050BF6E /* SYJiugonggeEntity.h */,
+				DC6DDCF51A8354610050BF6E /* SYJiugonggeEntity.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DC6DDCB41A83364F0050BF6E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DC6DDC911A8336010050BF6E /* AppDelegate.h */,
+				DC6DDC921A8336010050BF6E /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DC6DDCBB1A8336C40050BF6E /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DC6DDCBF1A83378B0050BF6E /* JJGTestView.h */,
+				DC6DDCC01A83378B0050BF6E /* JJGTestView.m */,
+				DC6DDCBC1A8336ED0050BF6E /* JJGTestViewController.h */,
+				DC6DDCBD1A8336ED0050BF6E /* JJGTestViewController.m */,
+				DC6DDCC61A8350310050BF6E /* JJGEntity.h */,
+				DC6DDCC71A8350310050BF6E /* JJGEntity.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		DC6DDCC91A8353430050BF6E /* tmpImage */ = {
+			isa = PBXGroup;
+			children = (
+				DC6DDCCA1A8353430050BF6E /* 1.jpg */,
+				DC6DDCCB1A8353430050BF6E /* 10.jpg */,
+				DC6DDCCC1A8353430050BF6E /* 11.jpg */,
+				DC6DDCCD1A8353430050BF6E /* 12.jpg */,
+				DC6DDCCE1A8353430050BF6E /* 13.jpg */,
+				DC6DDCCF1A8353430050BF6E /* 14.jpg */,
+				DC6DDCD01A8353430050BF6E /* 15.jpg */,
+				DC6DDCD11A8353430050BF6E /* 16.jpg */,
+				DC6DDCD21A8353430050BF6E /* 17.jpg */,
+				DC6DDCD31A8353430050BF6E /* 18.jpg */,
+				DC6DDCD41A8353430050BF6E /* 19.jpg */,
+				DC6DDCD51A8353430050BF6E /* 2.jpg */,
+				DC6DDCD61A8353430050BF6E /* 20.jpg */,
+				DC6DDCD71A8353430050BF6E /* 21.jpg */,
+				DC6DDCD81A8353430050BF6E /* 3.jpg */,
+				DC6DDCD91A8353430050BF6E /* 4.jpg */,
+				DC6DDCDA1A8353430050BF6E /* 5.jpg */,
+				DC6DDCDB1A8353430050BF6E /* 6.jpg */,
+				DC6DDCDC1A8353430050BF6E /* 7.jpg */,
+				DC6DDCDD1A8353430050BF6E /* 8.jpg */,
+				DC6DDCDE1A8353430050BF6E /* 9.jpg */,
+			);
+			path = tmpImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC6DDC891A8336010050BF6E /* syJiugonggeTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6DDCAD1A8336010050BF6E /* Build configuration list for PBXNativeTarget "syJiugonggeTableView" */;
+			buildPhases = (
+				DC6DDC861A8336010050BF6E /* Sources */,
+				DC6DDC871A8336010050BF6E /* Frameworks */,
+				DC6DDC881A8336010050BF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = syJiugonggeTableView;
+			productName = syJiugonggeTableView;
+			productReference = DC6DDC8A1A8336010050BF6E /* syJiugonggeTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC6DDCA21A8336010050BF6E /* syJiugonggeTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6DDCB01A8336010050BF6E /* Build configuration list for PBXNativeTarget "syJiugonggeTableViewTests" */;
+			buildPhases = (
+				DC6DDC9F1A8336010050BF6E /* Sources */,
+				DC6DDCA01A8336010050BF6E /* Frameworks */,
+				DC6DDCA11A8336010050BF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC6DDCA51A8336010050BF6E /* PBXTargetDependency */,
+			);
+			name = syJiugonggeTableViewTests;
+			productName = syJiugonggeTableViewTests;
+			productReference = DC6DDCA31A8336010050BF6E /* syJiugonggeTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC6DDC821A8336010050BF6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = sy;
+				TargetAttributes = {
+					DC6DDC891A8336010050BF6E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DC6DDCA21A8336010050BF6E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DC6DDC891A8336010050BF6E;
+					};
+				};
+			};
+			buildConfigurationList = DC6DDC851A8336010050BF6E /* Build configuration list for PBXProject "syJiugonggeTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC6DDC811A8336010050BF6E;
+			productRefGroup = DC6DDC8B1A8336010050BF6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC6DDC891A8336010050BF6E /* syJiugonggeTableView */,
+				DC6DDCA21A8336010050BF6E /* syJiugonggeTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC6DDC881A8336010050BF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6DDCE21A8353430050BF6E /* 12.jpg in Resources */,
+				DC6DDCE81A8353430050BF6E /* 18.jpg in Resources */,
+				DC6DDCE31A8353430050BF6E /* 13.jpg in Resources */,
+				DC6DDCF01A8353430050BF6E /* 6.jpg in Resources */,
+				DC6DDCEF1A8353430050BF6E /* 5.jpg in Resources */,
+				DC6DDC9B1A8336010050BF6E /* Images.xcassets in Resources */,
+				DC6DDCF21A8353430050BF6E /* 8.jpg in Resources */,
+				DC6DDCE51A8353430050BF6E /* 15.jpg in Resources */,
+				DC6DDCF11A8353430050BF6E /* 7.jpg in Resources */,
+				DC6DDCE41A8353430050BF6E /* 14.jpg in Resources */,
+				DC6DDCE71A8353430050BF6E /* 17.jpg in Resources */,
+				DC6DDCF31A8353430050BF6E /* 9.jpg in Resources */,
+				DC6DDCEE1A8353430050BF6E /* 4.jpg in Resources */,
+				DC6DDCED1A8353430050BF6E /* 3.jpg in Resources */,
+				DC6DDCEB1A8353430050BF6E /* 20.jpg in Resources */,
+				DC6DDCE91A8353430050BF6E /* 19.jpg in Resources */,
+				DC6DDCE01A8353430050BF6E /* 10.jpg in Resources */,
+				DC6DDCEC1A8353430050BF6E /* 21.jpg in Resources */,
+				DC6DDCEA1A8353430050BF6E /* 2.jpg in Resources */,
+				DC6DDCDF1A8353430050BF6E /* 1.jpg in Resources */,
+				DC6DDCE61A8353430050BF6E /* 16.jpg in Resources */,
+				DC6DDCE11A8353430050BF6E /* 11.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6DDCA11A8336010050BF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC6DDC861A8336010050BF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6DDCF61A8354610050BF6E /* SYJiugonggeEntity.m in Sources */,
+				DC6DDC931A8336010050BF6E /* AppDelegate.m in Sources */,
+				DC6DDCBE1A8336ED0050BF6E /* JJGTestViewController.m in Sources */,
+				DC6DDCBA1A8336790050BF6E /* SYJiugonggeTableView.m in Sources */,
+				DC6DDC901A8336010050BF6E /* main.m in Sources */,
+				DC6DDCC81A8350310050BF6E /* JJGEntity.m in Sources */,
+				DC6DDCC11A83378B0050BF6E /* JJGTestView.m in Sources */,
+				DC6DDCB91A8336790050BF6E /* SYJiugonggeCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6DDC9F1A8336010050BF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6DDCAA1A8336010050BF6E /* syJiugonggeTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC6DDCA51A8336010050BF6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC6DDC891A8336010050BF6E /* syJiugonggeTableView */;
+			targetProxy = DC6DDCA41A8336010050BF6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC6DDCAB1A8336010050BF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC6DDCAC1A8336010050BF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC6DDCAE1A8336010050BF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = syJiugonggeTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC6DDCAF1A8336010050BF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = syJiugonggeTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC6DDCB11A8336010050BF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = syJiugonggeTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/syJiugonggeTableView.app/syJiugonggeTableView";
+			};
+			name = Debug;
+		};
+		DC6DDCB21A8336010050BF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = syJiugonggeTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/syJiugonggeTableView.app/syJiugonggeTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC6DDC851A8336010050BF6E /* Build configuration list for PBXProject "syJiugonggeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6DDCAB1A8336010050BF6E /* Debug */,
+				DC6DDCAC1A8336010050BF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6DDCAD1A8336010050BF6E /* Build configuration list for PBXNativeTarget "syJiugonggeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6DDCAE1A8336010050BF6E /* Debug */,
+				DC6DDCAF1A8336010050BF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC6DDCB01A8336010050BF6E /* Build configuration list for PBXNativeTarget "syJiugonggeTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6DDCB11A8336010050BF6E /* Debug */,
+				DC6DDCB21A8336010050BF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC6DDC821A8336010050BF6E /* Project object */;
+}
