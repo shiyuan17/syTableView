@@ -14,25 +14,17 @@ SYJiugonggeTableView九宫格
   
 ###初始化SYJiugonggeTableView
 ```objc
-//定义frame
-CGFloat width = [[UIScreen mainScreen] bounds].size.width;
-CGFloat height = [[UIScreen mainScreen] bounds].size.height;
-CGRect tbVframe = CGRectMake(0, 20, width, height-50);
 //获取自定义view的class名称
 NSString *customViewName =  NSStringFromClass([JJGTestView class]);  
-
 /**
  *  初始化tableView
- *
  *  @param frame       tableView的Frame
- *  @param datas       tableView数据
+ *  @param datas       tableView数据 array数组
  *  @param viewName    自定义view的名称
  *  @param number      多少列
  *  @param apartMargin 间隔
  *  @param width       每个宽
  *  @param height      每个高
- *
- *  @return 九宫格TableView
  */
 SYJiugonggeTableView *tbv = [[SYJiugonggeTableView alloc]initWithFrame:tbVframe data:arrayData 
 customViewName:customViewName cellColumnNumber:3 apartMargin:10 width:100 height:100];
@@ -45,7 +37,7 @@ customViewName:customViewName cellColumnNumber:3 apartMargin:10 width:100 height
 selector:@selector(setupCellData:) name:JiugonggeCellDataNotification object:nil];
 ```
 
-###实现监听器，设置数据显示
+###实现监听器，设置数据显示,例：
 ```objc
 -(void)setupCellData:(NSNotification *)notification{
     //自定义的实体
