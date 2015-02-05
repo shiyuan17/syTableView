@@ -1,8 +1,10 @@
-SYJiugonggeTableView
+SYJiugonggeTableView九宫格
 ===========================
 
 ###　　　　　　　　　　　　Author:ShiYuan
-###　　　　　　　　　 E-mail:1213423761@qq.com
+###　　　　　　　　　 E-mail:1213423761@qq.com  
+  
+![](https://github.com/shiyuan17/SYJiugonggeTableView/blob/master/iosTableView.jpg)
 
 ###如何使用SYJiugonggeTableView
 1.将syJiugonggeTableView/Resource文件夹中的所有文件拽入项目中 
