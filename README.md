@@ -10,6 +10,8 @@ SYTableView 快速tableView创建
  #import "SYTableViewHeader.h" 
  
  ###创建普通TableView如下
+ 效果图如下：  
+![](https://github.com/shiyuan17/SYJiugonggeTableView/blob/master/iosTableView1.png)
  ```objc
 //1.获取自定义view的class名称
 NSString *customViewName =  NSStringFromClass([JJGTestView class]);
@@ -33,7 +35,7 @@ SYTableView *tbv = [[SYTableView alloc]initWithFrame:tbVframe data:arrayDatas cu
  ```
   
 ###创建九宫格TableView如下：
-效果：  
+效果图如下：  
 ![](https://github.com/shiyuan17/SYJiugonggeTableView/blob/master/iosTableView.jpg)
 ```objc
 //获取自定义view的class名称
