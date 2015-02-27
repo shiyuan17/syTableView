@@ -381,6 +381,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC70F7A21A917063009E7D3B /* Info.plist in Resources */,
 				DC70F7D51A917063009E7D3B /* wallet_paysecurity@3x.png in Resources */,
 				DC70F7B91A917063009E7D3B /* 6.jpg in Resources */,
 				DC70F7B11A917063009E7D3B /* 18.jpg in Resources */,
@@ -391,7 +392,6 @@
 				DC70F7A91A917063009E7D3B /* 10.jpg in Resources */,
 				DC70F7AC1A917063009E7D3B /* 13.jpg in Resources */,
 				DC70F7C21A917063009E7D3B /* my_laapp_icon@3x.png in Resources */,
-				DC70F7A21A917063009E7D3B /* Info.plist in Resources */,
 				DC70F7BD1A917063009E7D3B /* my_bookmark_icon@2x.png in Resources */,
 				DC70F7B51A917063009E7D3B /* 21.jpg in Resources */,
 				DC70F7B71A917063009E7D3B /* 4.jpg in Resources */,
