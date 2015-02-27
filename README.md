@@ -9,8 +9,8 @@ SYTableView 快速tableView创建
 2.导入头文件：  
  #import "SYTableViewHeader.h" 
  
- ###创建普通TableView如下
- 效果图如下：  
+###创建普通TableView如下  
+ 效果图如下：    
 ![](https://github.com/shiyuan17/SYJiugonggeTableView/blob/master/iosTableView1.png)
  ```objc
 //1.获取自定义view的class名称
