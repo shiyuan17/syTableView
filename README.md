@@ -15,6 +15,8 @@ SYTableView 快速tableView创建
  #import "SYTableViewHeader.h" 
  
  1.普通弄tableView创建如下： 
+ 效果图：   
+ ![](https://github.com/shiyuan17/syTableView/blob/master/tableview.png)   
  初始化如下：   
  ```  objc
  //1.引入
