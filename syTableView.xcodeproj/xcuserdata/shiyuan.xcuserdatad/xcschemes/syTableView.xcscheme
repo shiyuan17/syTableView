@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0610"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC6DDC891A8336010050BF6E"
-               BuildableName = "syTableView.app"
-               BlueprintName = "syTableView"
-               ReferencedContainer = "container:syTableView.xcodeproj">
+               BlueprintIdentifier = "DC54136E1B98704A008CC92F"
+               BuildableName = "SYTableView.app"
+               BlueprintName = "SYTableView"
+               ReferencedContainer = "container:SYTableView.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC5413871B98704A008CC92F"
+               BuildableName = "SYTableViewTests.xctest"
+               BlueprintName = "SYTableViewTests"
+               ReferencedContainer = "container:SYTableView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +42,24 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC5413871B98704A008CC92F"
+               BuildableName = "SYTableViewTests.xctest"
+               BlueprintName = "SYTableViewTests"
+               ReferencedContainer = "container:SYTableView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC6DDC891A8336010050BF6E"
-            BuildableName = "syTableView.app"
-            BlueprintName = "syTableView"
-            ReferencedContainer = "container:syTableView.xcodeproj">
+            BlueprintIdentifier = "DC54136E1B98704A008CC92F"
+            BuildableName = "SYTableView.app"
+            BlueprintName = "SYTableView"
+            ReferencedContainer = "container:SYTableView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -48,13 +72,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC6DDC891A8336010050BF6E"
-            BuildableName = "syTableView.app"
-            BlueprintName = "syTableView"
-            ReferencedContainer = "container:syTableView.xcodeproj">
+            BlueprintIdentifier = "DC54136E1B98704A008CC92F"
+            BuildableName = "SYTableView.app"
+            BlueprintName = "SYTableView"
+            ReferencedContainer = "container:SYTableView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -66,13 +91,14 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DC6DDC891A8336010050BF6E"
-            BuildableName = "syTableView.app"
-            BlueprintName = "syTableView"
-            ReferencedContainer = "container:syTableView.xcodeproj">
+            BlueprintIdentifier = "DC54136E1B98704A008CC92F"
+            BuildableName = "SYTableView.app"
+            BlueprintName = "SYTableView"
+            ReferencedContainer = "container:SYTableView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
